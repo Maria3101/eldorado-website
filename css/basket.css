@@ -1,0 +1,540 @@
+.vasha_basket {
+    display: flex; 
+    border-radius: 2px;
+    border: 1px solid #626262;
+    display: flex;
+    gap:165px;
+    align-items: center;
+}
+h1 { display: none;}
+
+.bas {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 175px;
+}
+.bas_2 {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.clean_basket {
+    display: flex; 
+    gap: 346px;
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+    margin-top: 50px;
+}
+.clean_line p {
+    padding-right: 60px;
+    color: #626262;
+    font-weight: 300;
+}
+.clean_line {
+    display: flex;
+}
+p.cl {
+    color: #626262;
+    font-weight: 700;
+}
+.clean_line img {
+    margin-top: -10px;
+}
+.bat {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 53px auto;
+}
+.bat p {
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+p.rub_1 {
+    color: #888585;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+p.rub_2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.quan {
+    display:flex;
+    border: 1px solid #626262;
+}
+#plus, #minus {
+    padding: 14px 21px;
+   
+}
+#one {
+    padding: 18px 44px;
+}
+#minus, #one {
+     border-right: 1px solid #626262;
+}
+.three_blocks {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.one_block {
+    width: 33%;
+    border: 1px solid #626262;
+   padding: 53px 26px;
+    margin-top: 34px;
+}
+.one_block_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+ 
+/*.bonus .delivery .result {
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.485px;*/
+}
+
+.squares {
+    border-bottom: 1px solid #626262;
+    margin: 0 -15px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 46px;
+    padding-left: 56px;
+    padding-bottom: 29px;
+}
+/*.square {
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.375px;*/
+}
+.bonus_card {
+    padding-left: 61px;
+    padding-top: 43px;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.375px;
+}
+.numbers_16 a {
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 1.045px;
+    border-radius: 3px;
+    border: 1px solid #626262;
+    padding: 22px 95px 21px 17px;
+    margin-left: 61px;
+}
+.bon_card {
+     display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    border-bottom: 1px solid #626262;
+    margin: 0 -15px;
+}
+.btn_add {
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    padding-bottom: 52px;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 1.045px;
+}
+.one_block_3 {
+    display:flex;
+    justify-content: space-between;
+     padding-top: 50px;
+}
+.one_block_3 p{
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.045px;
+}
+.avtoriz {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.045px;
+    color: #FFF;
+    background: #76BC21;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.two_block {
+    width: 66%;
+    border: 1px solid #626262;
+   padding: 53px 26px;
+    margin-top: 34px;
+    margin-left: 6px;
+    display: flex;
+    gap: 30px;
+}
+.three_block {
+    border-left: 1px solid black;
+    width: 50%;
+    padding-left: 30px;
+}
+.city {
+    margin-top: -15px;
+    margin-bottom: -25px;
+}
+.choice {
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.045px;
+    border: 1px solid #626262;
+    padding: 10px 300px 10px 17px; 
+}
+.rounds {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 50%;
+}
+label {
+    display: block;
+    margin-top: -14px;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.265px;
+    padding-bottom: 50px;
+    
+}
+select {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.click_btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.65px;
+    background-color: #F2CB67;
+    display: flex;
+    padding: 21px 115px;
+    justify-content: center;
+    align-items: center;
+}
+.click_btn:hover {
+    background-color: #E0FCBF; /* Изменение цвета фона при наведении */
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.product {
+    margin-top: 50px;
+}
+.pric {
+    font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    margin-top: 39px;
+    margin-bottom: -9px;
+}
+.secondary_but {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid #626262;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.265px;
+    margin-bottom: 30px;
+}
+.basket_mob {display: none;}
+.bat_mob {display: none;}
+.one_block_mob {display: none;}
+.rounds_mob {display: none;}
+.three_block_mob {display: none;}
+@media screen and (max-width: 1460px) {
+    .vasha_basket {
+        width: 83vw;
+        height: 30px;
+        gap: 11vw;
+        margin-top: -23px;
+    }
+    .bas {
+        font-size: 10px;
+        padding-left: 24px;
+    }
+    .bas_2 {
+        font-size: 10px;
+    }
+    .clean_basket {
+        gap: 115px;
+        margin-top: 28px;
+        padding-bottom: 7px;
+    }
+    .clean_line p {
+        font-size: 1vw;
+    }
+    .clean_line img {
+        width: 15px;
+        height: 20px;
+    }
+    .clean_line p  {
+        padding-right: 42px;
+     }
+    .bat {
+        gap: 50px;
+    }
+    .bat img {
+        width: 12vw;
+    }
+    .bat p {
+        font-size: 1.4vw;
+    }
+    .quantity {
+        gap: 10px;
+    }
+    #plus, #minus {
+        padding: 9px 10px;
+    }
+    #one {
+        padding: 4px 24px;
+    }
+    .one_block {
+        padding: 22px 12px;
+    }
+    .one_block_1 {
+        gap: 35px;
+    }
+    .squares {
+        margin: 0 -15px;
+        gap: 40px;
+        padding-top: 46px;
+        padding-left: 56px;
+        padding-bottom: 29px;
+    }
+    label {
+        font-size: 11px;
+        padding-bottom: 34px;
+        margin-top: -14px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    
+    .bon_card {
+        padding-top: 25px;
+        margin: 0 -3px;
+    }
+    .numbers_16 a {
+        font-size: 11px;
+        padding: 9px 4px;
+        margin-left: 11px;
+    }
+    .btn_add {
+        font-size: 11px;
+        padding-bottom: 41px;
+    }
+    .one_block_3 {
+        padding-top: 25px;
+    }
+    .one_block_3 p {
+        font-size: 9px;
+    }
+    .avtoriz {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .two_block {
+        padding: 25px 14px;
+        gap: 20px;
+    }
+    .rounds {
+        gap: 34px;
+    }
+    select {
+        font-size: 12px;
+        padding: 7px;
+    }
+    .three_block {
+        padding-left: 16px;
+    }
+    .info {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    .product {
+        margin-top: 34px;
+    }
+    .pric {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .secondary_but {
+        padding: 5px 7px;
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+    .click_btn {
+        font-size: 15px;
+        padding: 11px 91px;
+    }
+    .basket_mob {display: none;}
+    .bat_mob {display: none;}
+    .one_block_mob {display: none;}
+    .rounds_mob {display: none;}
+    .three_block_mob {display: none;}
+}
+    
+@media screen and (max-width: 700px) {
+    .vasha_basket {display: none;}
+    .clean_basket {display: none;}
+    .bat {display: none;}
+    .basket_mob {
+        display: block;
+        display: flex;
+        gap: 88px;
+        margin-top: -43px;
+    }
+    .basket_mob h2 {
+        font-size: 14px;
+        font-weight: 500;
+       
+    }
+    .clean_line_mob {
+        font-size: 3vw;
+    }
+    .clean_line_mob img {
+        width: 5vw;
+    }
+    .bat_mob {
+        display: block;
+    }
+    .bat_mob h2 {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 18px;
+        margin-bottom: 17px;
+    }
+    .bat_mob img {
+        width: 31vw;
+    }
+    .quan {
+        margin-bottom: 5px;
+        margin-left: 150px;
+        margin-top: -248px;
+    }
+    p.rub_2 {
+        font-size: 15px;
+        margin-left: 150px;
+        margin-top: -95px;
+    }
+    #plus, #minus {
+        padding: 5px 10px;
+    }
+    #one {
+        padding: 4px 13px;
+    }
+    .three_blocks {display: none;}
+    .one_block_mob {display: block;}
+    .bonus {
+        display: block;
+        font-size: 15px;
+        margin-top: 104px;
+    }
+    label {
+        padding-bottom: 0;
+        margin-top: 12px;
+    }
+    .avtoriz {
+        font-size: 15px;
+        padding: 8px 102px;
+        background: #F2CB67;
+        margin-top: 16px;
+    }
+    .rounds_mob {display: block;}
+    .delivery {
+        border-bottom: 1px solid #626262;
+        border-top: 1px solid #626262;
+        padding: 13px 0;
+        margin-top: 22px;
+    }
+    .three_block_mob {
+        display: block;
+        margin-bottom: 40px;}
+    .result {
+        border-top: 1px solid #626262;
+        padding-top: 14px;
+        margin-top: 30px;
+    }
+    .secondary_but {
+        padding: 12px 6px;
+    }
+}

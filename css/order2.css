@@ -1,0 +1,133 @@
+.bas_1 {
+    color: #F2CB67;
+}
+.way h2 {
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 41px;
+}
+.way_oplata {
+    display: flex;
+}
+.oplata {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 1125px;
+    height: 250px;
+    border: 1px solid #626262;
+    margin-top: 42px;
+    
+    padding-left: 63px;
+    padding-top: 40px;
+}
+.oplata_card {
+    margin-top: 22px;
+}
+.oplata_card img {
+    margin-right: 10px;
+}
+.click_btn {
+    display: flex;
+    width: 362px;
+    height: 67px;
+    padding: 16px 66px 15px 69px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 70px;
+    margin-left: 26px;
+}
+.your_order {
+    height: 574px;
+    margin-bottom: 261px;
+}
+.oplata label {
+    padding-bottom: 23px;
+}
+.oplata_cardpl {display: none;}
+.header_2 {display: none;}
+.bat_mob {display: none;}
+h1 {display: none;}
+.waymob {display: none;}
+@media screen and (max-width: 1460px) {
+    .way h2 {
+       font-size: 15px;
+       margin-top: 20px;
+    }
+    .img_1 img {
+        width: 45vw;
+        margin-left: -32px;
+    }
+    .oplata {
+        width: 447px;
+        height: 169px;
+    }
+    .your_order {
+        height: 385px;
+        width: 246px;
+    }
+    .click_btn {
+        font-size: 15px;
+        width: 203px;
+        height: 45px;
+        margin-top: 38px;
+        margin-left: 17px;
+    }
+    .oplata label {
+        margin-left: -32px;
+        font-weight: 500;
+    }
+    .oplata_card {display: none;}
+    .oplata_cardpl {
+        display: block;
+        margin-top: 3px;
+        margin-left: -32px;
+    }
+    .oplata_cardpl img {
+         margin-right: 5px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .header_2 {display: block;}
+    .header_2 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 4px;
+    }
+    .eld {display: none;}
+    .bat_mob {display: block;}
+    .way {display: none;}
+    .waymob {display: block;}
+    .waymob h2 {
+        margin-top: -14px;
+    }
+    .waymob__oplata {
+        width: 332px;
+        height: 90px;
+        margin-top: 15px;
+    }
+    .waymob__oplata label {
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+    .click_btn {
+        width: 316px;
+        margin-top: -8px;
+        margin-left: 1px;
+        margin-bottom: 109px;
+    }
+    
+}  
+    

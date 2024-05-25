@@ -1,0 +1,501 @@
+.phon {
+    text-align: center;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.mob {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+}
+.eld {
+    display: flex;
+    justify-content: space-between;
+}
+.horizontal-line {
+    width: 100%;
+    height: 1px; 
+    background-color: #626262;
+    margin-top: 34px;
+}
+.vasha_basket {
+    display: flex; 
+    border-radius: 8px;
+    border: 1px solid #626262;
+    background: #E9E9E9;
+    display: flex;
+    gap:165px;
+    align-items: center;
+}
+h1 { display: none;}
+
+.bas {
+    color: #76BC21;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 175px;
+}
+.bas_1 {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.bas_2 {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.pickup_line {
+    display: inline-flex;
+    margin-top: 21px;
+    align-items: center;
+}
+
+.pickup_line h2 {
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 107px;
+}
+.pickup_line a {
+    display: inline-flex;
+    padding: 10px 13px 12px 14px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 12px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pickup_line select {
+    margin-top: 0;
+}
+.list {
+    border-radius: 5px;
+    border: 1px solid #76BC21;
+    background: #FFF;
+    color: #76BC21;
+    margin-right: 25px;
+}
+.list_cap {
+    border-radius: 5px;
+    border: 1px solid #626262;
+    background: #FFF;
+    margin-right: 56px;
+    color: #626262;
+}
+.list_cap img {
+    padding-bottom: 3px;
+}
+.pickup_line label {flex-shrink: 0; padding-bottom:0; margin-top: 0;}
+.pickup_line p {
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 22px;
+    margin-top: 0;
+}
+/*.my_nab {
+    border-radius: 3px;
+    border: 1px solid #626262;
+    width: 323px;
+    height: 40px;
+    margin-top: 20px;
+    
+}
+a.my_nab {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}*/
+.Shops {
+    display: flex;
+}
+.shop_eld {
+    
+    width: 1179px;
+    height: 339px;
+    border-radius: 3px;
+    border: 1px solid #626262;
+    margin-top: 41px;
+}
+.shop_eld h2 {
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 33px;
+    margin-left: 65px;
+}
+.horizontal-line_2 {
+    width: 1059px;
+    height: 1px;
+    background: #000;
+    margin-top: 21px;
+    margin-left: 60px;
+    
+}
+.tc_arzan label {
+    color: #76BC21;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 0;
+}
+
+.tc_arzan {
+    display: flex;
+    margin-left: 60px;
+        align-items: center;
+    justify-content: space-between;
+    padding-right: 97px;
+    margin-top: 50px;
+}
+.btn_pickup {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 13px 43px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background: #F2CB67;
+}
+.horizontal-line_3 {
+    width: 1059px;
+    height: 1px;
+    background: #000;
+    margin-top: 46px;
+    margin-left: 60px;
+}
+.your_order {
+    
+    width: 414px;
+    height: 437px;
+    border-radius: 3px;
+    border: 1px solid #626262;
+    margin-left: 50px;
+    margin-top: 41px;
+    margin-bottom: 123px;
+}
+.your_order h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 26px;
+    margin-left: 45px;
+}
+.horizontal-line_4 {
+    width: 328px;
+    height: 1px;
+    background: #000;
+    margin-top: 15px;
+    margin-left: 43px;
+}
+.order_1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 28px;
+    margin-left: 43px;
+}
+.vc {
+    display: flex;
+    column-gap: 178px;
+    margin-top: 21px;
+    margin-left: 43px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.horizontal-line_5 {
+    width: 328px;
+    height: 1px;
+    background: #000;
+    margin-top: 33px;
+    margin-left: 43px;
+}
+.vc_1 {
+    display: flex;
+    column-gap: 72px;
+    margin-top: 33px;
+    margin-left: 43px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.horizontal-line_6 {
+    width: 328px;
+    height: 1px;
+    background: #000;
+    margin-top: 43px;
+    margin-left: 43px;
+}
+.vc_2 {
+    display: flex;
+    column-gap: 72px;
+    margin-top: 33px;
+    margin-left: 43px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.symma {
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.f2_plan {display: none;}
+.header_2 {display: none;}
+.shopmob {display: none;}
+.fixmenu {display: none;}
+@media screen and (max-width: 1460px) {
+    .phon {
+        font-size: 1.8vw;
+    }
+    .mob {
+        font-size: 1.8vw;
+    }
+    .vasha_basket {
+        gap: 84px;
+        width: 85vw;
+    }
+    .bas {
+        padding-left: 28px;
+        font-size: 11px;
+    }
+    .bas_1 {font-size: 11px;}
+    .bas_2 {font-size: 11px;}
+    .pickup_line h2 {
+        font-size: 14px;
+    }
+    .pickup_line a {
+        font-size: 11px;
+        padding: 4px 5px;
+        gap: 5px;
+    }
+    .list, .list_cap {
+        height: 27px;
+    }
+    .list img {
+        width: 2vw;
+    
+    }
+    .list_cap img {
+        width: 1.8vw;
+        padding-bottom: 0;
+    }
+    .pickup_line p {
+        font-size: 14px;
+    }
+    .shop_eld {
+        width: 447px;
+        height: 189px;
+    }
+    .shop_eld h2 {
+        font-size: 14px;
+        margin-top: 14px;
+        margin-left: 24px; 
+    }
+    .horizontal-line_2 {
+        width: 429px;
+        margin-top: 21px;
+        margin-left: 7px;
+    }
+    .tc_arzan label {
+        font-size: 12px;
+    }
+    .btn_pickup {
+        font-size: 11px;
+        white-space: nowrap;
+        padding: 9px 10px;
+    }
+    .horizontal-line_3 {
+        width: 429px;
+        margin-top: 24px;
+        margin-left: 7px;
+    }
+    .tc_arzan {
+        margin-left: 21px;
+        padding-right: 21px;
+        margin-top: 22px;
+    }
+    .your_order {
+        width: 240px;
+        height: 305px;
+        margin-left: 9px;
+        margin-top: 41px;
+        margin-bottom: 123px;
+    }
+    .your_order h2 {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 12px;
+    }
+    .horizontal-line_4 {
+        width: 200px;
+        margin-left: 19px;
+    }
+    .horizontal-line_5 {
+        width: 200px;
+        margin-top: 17px;
+        margin-left: 19px;
+    }
+    .horizontal-line_6 {
+        width: 200px;
+        margin-top: 17px;
+        margin-left: 19px;
+    }
+    .order_1 {
+        font-size: 13px;
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+    .vc {
+        font-size: 13px;
+        column-gap: 118px;
+        margin-left: 20px;
+    }
+    .vc_1 {
+        font-size: 13px;
+        column-gap: 60px;
+        margin-left: 20px;
+    }
+    .vc_2 {
+        font-size: 14px;
+        column-gap: 54px;
+        margin-left: 20px;
+    }
+    .symma {
+        font-size: 15px;
+    }
+    .f2_plan {
+        display: block;
+        
+    }
+}
+@media screen and (max-width: 700px) {
+    .header_2 {display: block;}
+    .eld {display: none;}
+    .vasha_basket {display: none;}
+    .horizontal-line {display: none;}
+    .pickup_line {display: none;}
+    .Shops {display: none;}
+    .shopmob {display: block;}
+    .shopmob h2 {
+        margin-top: -20px;
+    }
+    .shopmob__point a {
+        display: inline-block;
+        width: 156px;
+        text-align: center; 
+        padding: 10px; 
+        text-decoration: none;
+        margin-top: 15px;
+    }
+    .magazin {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background: #F2CB67;
+        
+    }
+    .dr_magazin {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: 1px solid #D9D9D9;
+        background: #FFF;
+    }
+    .shopmob label {
+        margin-top: 33px;
+    }
+    .btn_pickup {
+        padding: 9px 116px;
+        margin-top: 41px;
+        margin-bottom: 139px;
+    }
+    
+    .fixmenu{
+        display: flex;
+        align-items: center;
+        background: #000;
+        color: #FFF;
+        font-size: 9px;
+        width: 100%;
+        height: 50px;
+        position:fixed;
+        left:0;
+        bottom:0;
+        
+    }
+    .fixmenu a {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            gap: 5px;
+    }
+    
+    footer {padding-bottom: 50px;}
+    .header_2 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4px;
+}
+}

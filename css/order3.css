@@ -1,0 +1,186 @@
+.bas_3 {
+    color: #F2CB67;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.face h2 {
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 33px;
+    margin-bottom: 55px;
+}
+.contact_face {
+    display: flex;
+}
+.phone-input input  {
+    width: 477px;
+    height: 59px;
+    border-radius: 3.576px;
+    border: 1.788px solid #D9D9D9;
+    background: #FFF;
+    font-family: Inter;
+    font-size: 16.091px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 19px;
+    margin-left: 58px;
+    margin-top: 64px;
+}
+.btn_cod button {
+    margin-left: 58px;
+    margin-top: 21px;
+    margin-bottom: 36px;
+    display: inline-flex;
+    height: 59px;
+    padding: 21px 44px 20px 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.666px;
+    background: #76BC21;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.phone-input {
+    width: 1179px;
+    height: 574px;
+    border-radius: 3px;
+    border: 1px solid #626262;
+}
+.form-container input {
+    display: flex;
+    margin-top: 13px;
+    color: #888585;
+    background: #D9D9D9;
+}
+.your_order {
+    margin-top: -1px;
+}
+.horizontal-line_4 {
+    margin-top: -35px;
+}
+.header_2 {display: none;}
+.your_orderpl {display: none;}
+.shopmob {display: none;}
+
+@media screen and (max-width: 1460px) {
+    .bas_3 {
+        font-size: 11px;
+    }
+    .face h2 {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    .contact_face {
+        margin-top: -31px;
+    }
+    .phone-input {
+        width: 447px;
+        height: 385px;
+    }
+    .phone-input input {
+        width: 251px;
+        height: 26px;
+        font-size: 11px;
+        margin-left: 26px;
+        margin-top: 18px;
+    }
+    .btn_cod button {
+        font-size: 13px;
+        margin-left: 26px;
+        margin-top: 21px;
+        height: 37px;
+        padding: 12px 30px;
+}
+@media screen and (max-width: 700px) {
+    
+    .shopmob {
+        display: block;
+        margin-top: 120px;
+    }
+    .your_order {display: none;}
+    .header_2 {display: block;}
+    .eld {display: none;}
+    .one {
+        border-radius: 2px;
+        border: 1px solid #888585;
+        background: #E9E9E9;
+    }
+    .bat_mob__col {
+        display: flex;
+    }
+    .bat_mob__col p {
+        width: 23px;
+        height: 23px;
+        text-align: center;
+        margin-left: 35px;
+        margin-top: 26px;
+    }
+    h1 {
+        display: block;
+        font-size: 16px;
+        margin-top: -23px;
+    }
+    .face h2 {
+        display: none;
+    }
+    .face {
+        margin-top: 75px;
+    }
+    .your_orderpl {
+        display: block;
+        margin-top: 30px;
+    }
+    .vc {
+        font-size: 12px;
+        column-gap: 239px;
+        margin-left: 2px;
+    }
+    .vc_1 {
+        font-size: 12px;
+        column-gap: 184px;
+        margin-left: 2px;
+        margin-top: 10px;
+    }
+    .vc_2 {
+        font-size: 13px;
+        column-gap: 173px;
+        margin-left: 2px;
+        margin-top: 10px;
+    }
+    .shopmob__point {
+        display: flex;
+        gap: 5px;
+    }
+    .phone-input {
+        width: 0;
+        height: 0;
+        border-radius: 0;
+        border: 0;
+        margin-bottom: 320px;
+    }
+    .phone-input input {
+        width: 317px;
+        height: 35px;
+        margin-left: 2px;
+        margin-top: 10px;
+    }
+    .btn_cod button {
+        margin-left: 2px;
+        height: 37px;
+        padding: 12px 114px;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
+    
+}

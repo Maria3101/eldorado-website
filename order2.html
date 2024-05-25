@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap" rel="stylesheet">    
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/good.css'>
+    <link rel='stylesheet' href='css/basket.css'>
+    <link rel='stylesheet' href='css/order.css'>
+    <link rel='stylesheet' href='css/order2.css'>
+    <title>Эльдорадо1</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+           <div class="header_2">
+              <img class="logo" src="img/%D0%AD%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D0%B0%D0%B4%D0%BE.png" alt="">
+              <div class="mob_icons">
+                  <a href=""><img src="img/icons/storefront%20outline_.png" alt=""></a>
+                  <a href=""><img src="img/icons/book.png" alt=""></a>
+                  <a href="tel:+7645653457"><img src="img/icons/book.png" alt=""></a>
+              </div>
+              <a class="mob_loc" href=""><img src="img/icons/map.png" alt=""><span> Набережные  Челны. Республика Татарстан</span></a>
+              <form class="search" action="" method="get">
+                  <input class="search_text" type="text">
+                  <input class="search_btn" type="submit">
+              </form>
+            </div>
+            <div class="eld">
+                <img class="logo" src="img/%D0%AD%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D0%B0%D0%B4%D0%BE.png" alt="">
+                <p class="phon">
+                <span class="mob">8 800 250 25 25</span>
+                <br>Звонок по России бесплатный</p>
+            </div>
+        </div>
+        <div class="horizontal-line"></div>
+    </header>
+    <main>
+        <div class="container">
+          <div class="vasha_basket">
+              <h2 class="bas"><a href="basket.html">Ваша корзина</a></h2>
+              <h2 class="bas_1"><a href="order.html">Пункт самовывоза</a></h2>
+               <h2 class="bas_2">Способ оплаты</h2>
+              <h2 class="bas_2"><a href="order3.html">Подтверждение заказа</a></h2>
+             </div>
+             <div class="waymob">
+                 <h2>Способ оплаты</h2>
+                 <div class="waymob__oplata">
+                    <label for="input1" id="label1"><input type="radio" name="deliv"> Оплата заказа онлайн</label>
+                    <label for="input1" id="label1"><input type="radio" name="deliv"> Оплата при получении</label>
+                 </div>
+                 <button class="click_btn" onclick="redirectToBasket()">ПРОДОЛЖИТЬ</button>
+            </div>
+             <div class="way">
+                 <h2>Способ оплаты</h2>
+                 <div class="way_oplata">
+                     <div class="oplata">
+                        <label for="input1" id="label1"><input type="radio" name="deliv"> Оплата заказа онлайн</label>
+                         <div class="img_1">
+                             <img src="img/icons/image%201.png">
+                         </div>
+                         <div class="oplata_card">
+                             <img src="img/icons/Gpay.png">
+                             <img src="img/icons/pay.png">
+                             <img src="img/icons/mastercard.png">
+                             <img src="img/icons/visa_2.png">
+                             <img src="img/icons/mir.png">
+                         </div>
+                         <div class="oplata_cardpl">
+                             <img src="img/icons/image%2016.png">
+                             <img src="img/icons/image%2017.png">
+                             <img src="img/icons/image%2018.png">
+                             <img src="img/icons/image%2019.png">
+                             <img src="img/icons/image%2020.png">
+                         </div>
+                     </div>
+                     <div class="your_order">
+                             <h2>Ваш заказ</h2>
+                             <div class="horizontal-line_4"></div>
+                             <p class="order_1">1 товар в корзине</p>
+                             <div class="horizontal-line_5"></div>
+                             <div class="vc">
+                                 <p>Сумма</p>
+                                 <p>299 р.</p>
+                             </div>
+                             <div class="vc_1">
+                                 <p>Самовывоз</p>
+                                 <p>Бесплатно</p>
+                             </div>
+                             <div class="horizontal-line_6"></div>
+                             <div class="vc_2">
+                                 <p>Всего к оплате</p>
+                                 <p class="symma">299 р.</p>
+                             </div>
+                              <button class="click_btn" onclick="redirectToBasket()">ПРОДОЛЖИТЬ</button>
+                          <script>
+                                function redirectToBasket() {
+                                window.location.href = "order3.html";
+                                }
+                          </script>
+                      </div>
+                  </div>
+             </div>
+        </div>
+    </main>
+    <div class="fixmenu">
+       <a href="index.html"><img src="img/icons/icon_home.png" alt=""><span>Главная</span></a>
+       <a href=""><img src="img/icons/icon_catalog_.png" alt=""><span>Каталог</span></a>
+       <a href="basket.html"><img src="img/icons/icon_basket_.png" alt=""><span>Корзина</span></a>
+       <a href=""><img src="img/icons/icon_person_.png" alt=""><span>Кабинет</span></a>
+       <a class="linemenu" href=""><img src="img/icons/icon_menu%201_.png" alt=""><span>Меню</span></a>
+   </div>
+    <footer>
+       <section class="f1">
+          <div class="container">
+             <div class="footer_flex">
+                 <div class="column">
+                    <h2>Покупателю</h2>
+                     <ul>
+                         <li>Как зарегистрироваться</li>
+                        <li>Как сделать заказ</li>
+                        <li>Оплата</li>
+                        <li>Доставка</li> 
+                        <li>Самовывоз</li>
+                        <li>Сервисная служба</li>
+                        <li>Обмен и возврат</li>
+                        <li>Подарочные карты</li>
+                         
+                     </ul>
+                 </div>
+                 <div class="column"> 
+                    <h2>Информация</h2>
+                     <ul>
+                         <li>Как зарегистрироваться</li>
+                        <li>Как сделать заказ</li>
+                        <li>Оплата</li>
+                        <li>Доставка</li> 
+                        <li>Самовывоз</li>
+                        <li>Сервисная служба</li>
+                        <li>Обмен и возврат</li>
+                        <li>Подарочные карты</li>
+                         
+                     </ul>
+                  </div>
+                 <div class="column">
+                     <h2>Компания</h2>
+                     <ul>
+                         <li>Как зарегистрироваться</li>
+                        <li>Как сделать заказ</li>
+                        <li>Оплата</li>
+                        <li>Доставка</li> 
+                        <li>Самовывоз</li>
+                        <li>Сервисная служба</li>
+                        <li>Обмен и возврат</li>
+                        <li>Подарочные карты</li>
+                         
+                     </ul>
+                 </div>
+                 <div class="column_wide">
+                     <div class="left">
+                        <p> На связи  24/7 </p>
+                        <div class="na_cvize">
+                            <a href="tel:8 800 250 25 25"><img src="img/icons/tel.png"> 8 800 250 25 25</a>
+                            <a href=""><img src="img/icons/chat.png"> Чат с оператором</a>
+                        </div>
+                     </div>
+                     <div class="right">
+                         <p>Новости и акции только для своих</p>
+                         <form class="search_two" action="" method="get">
+                             <input class="pochta" type="email"name="mail">
+                             <input class="podpic_btn" type="submit" value="Подписаться">
+                         </form>
+                         <p>Мы в социальных сетях</p>
+                         <div class="socials">
+                             <a href="#"><img src="img/icons/vk.png"></a>
+                             <a href="#"><img src="img/icons/odn.png"></a>
+                             <a href="#"><img src="img/icons/youtube.png"></a>
+                             <a href="#"><img src="img/icons/teleg.png"></a>
+                         </div>
+                         <p>Мы в принимаем к оплате</p>
+                         <div class="payments">
+                             <img src="img/icons/visa.png">
+                             <img src="img/icons/card.png">
+
+                         </div>
+                     </div>
+                 </div>
+             </div>
+              
+          </div>
+           
+       </section>
+        <section class="f2">
+           <div class="container">
+             <ul class="footer_flex_2">
+                 <li>© «Эльдорадо», 2006—2023</li>
+                <li>Политика конфиденциальности</li>
+                <li>Публичная оферта</li>
+                <li>Карта сайта</li> 
+             </ul>
+          </div>
+       </section>
+       <section class="f2_plan">
+           <div class="container">
+             <ul class="footer_flex_2">
+                 <li>© «Эльдорадо», 2006—2023</li>
+             </ul>
+          </div>
+       </section>
+    </footer>
+    </body>
+</html>
